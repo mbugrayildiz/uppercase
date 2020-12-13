@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1607875066 source:/home/burak/c7j9bp/upperc.c
+	<stdio.h>
+	"upperc.h"
+	<stdlib.h>
+
+1607874924 source:/home/burak/c7j9bp/main.c
+	<stdio.h>
+	<stdlib.h>
+	"upperc.h"
+
+1607870505 /home/burak/c7j9bp/upperc.h
+
