@@ -15,11 +15,7 @@ int main(int argc, char *argv[])
         usage(argv[0]);
         return EXIT_FAILURE; //Error
     }
-    else
-    {
-        for(int i=1; i<argc; i++) //Checking all arguments one by one
-            printf("%s \n", uppercase(argv[i]));
 
-    }
-    return 0;
+    for(int i=1; i<argc; i++) //Checking all arguments one by one
+        puts(uppercase(argv[i]));
 }
