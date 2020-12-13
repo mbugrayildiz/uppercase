@@ -1,6 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
-
 #include "upperc.h"
 
 void usage(char *prg)
