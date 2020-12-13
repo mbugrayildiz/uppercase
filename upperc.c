@@ -8,11 +8,9 @@ Parsing the string, then making the letters to uppercase.
 
 char *uppercase(char *s)
 {
-    for(char *p = s; *p!='\0'; ++p) // Condition is --> continue the loop as long as *p is not zero, null
-    {
-        if ('a' <= *p && *p <= 'z')
-            *p = *p - MAGIC_NUMBER; //Indicating about 6th bit operation
+    while ('a' <= *p && *p <= 'z' && *p != NULL) {
+        *p = *p - MAGIC_NUMBER;
+        p++;
     }
-
     return s;
 }
