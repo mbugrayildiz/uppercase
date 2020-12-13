@@ -8,13 +8,6 @@ Parsing the string, then making the letters to uppercase.
 
 char *uppercase(char *s)
 {
-
-    if ( (s != NULL) && (s[0] == '\0') )
-    {
-        printf("s is empty!!\n");
-        return EXIT_FAILURE;
-    }
-
     for(char *p = s; *p!='\0'; ++p) // Condition is --> continue the loop as long as *p is not zero, null
     {
         if ('a' <= *p && *p <= 'z')
