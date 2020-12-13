@@ -2,9 +2,7 @@
 Parsing the string, then making the letters to uppercase.
 */
 
-#include <stdio.h>
 #include "upperc.h"
-#include <stdlib.h> // EXIT_FAILURE
 
 #define MAGIC_NUMBER ('a' - 'A') // == 32 == 0x20 --> we got 6th bit==2^5=32 when we does a-A==b-B=... it's 6th bit difference
 
